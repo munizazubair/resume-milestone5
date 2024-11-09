@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milestone 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Generate Interactive Resume For Yourself</h1>
+    </header>
+    <h4>
+      *All Sections Should Be Filled For Generate The Resume*
+    </h4>
+
+    <form class="main-container" id="resume-input">
+        <h2 class="main-heading">Information</h2>
+        <div class="sub-container" >
+        <label for="fill-name">Full Name:</label>
+        <input class="input" type="name" id="fill-name" placeholder="e.g., John Doe">
+    </div>
+
+    <div class="sub-container">
+    <label for="fill-nat">Nationality:</label>
+    <input class="input" type="text" id="fill-nat" placeholder="e.g., American">
+  </div>
+
+  <div class="sub-container">
+    <label for="fill-gmail">Gmail:</label>
+    <input class="input" type="email" id="fill-gmail" placeholder="e.g., johndoe@gmail.com">
+</div>
+
+<div class="sub-container">
+  <label for="fill-contact">Phone Number:</label>
+  <input class="input" type="number" id="fill-contact" placeholder="e.g., (123) 456-7890">
+</div>
+
+<div class="sub-container">
+  <label for="fill-linkedin">LinkedIn Profile URL:</label>
+  <input class="input" type="url" id="fill-linkedin" placeholder="e.g., linkedin.com/in/johndoe">
+</div>
+      
+   <div class="margin"></div>
+      <div class="sub-container">
+      <label for="fill-obj">Objective:</label>
+      <textarea class="text" type="text" id="fill-obj" placeholder="e.g., To leverage my skills in a challenging role..."></textarea>
+  </div>
+
+      <div class="sub-container">
+      <label for="fill-education">Education:</label>
+      <textarea class="text" type="text" id="fill-education" placeholder="e.g., Bachelor's in Computer Science, 2022"></textarea>
+
+  </div>
+
+      <div class="sub-container">
+      <label for="fill-skills">Skills:</label>
+      <textarea class="text" type="text" id="fill-skills" placeholder="e.g., HTML, CSS, JavaScript, React"></textarea>
+
+    </div>
+  <div class="btn-div">
+    <button id="generate-btn"><b>Generate Resume</b></button>
+  </div>
+  </form>
+
+<div id="resume-output" contenteditable="false" >
+  <h2 style="color: black;">Generated Resume</h2>
+  <div class="output"><strong>Full Name:</strong> <span id="getName"></span></div>
+  <div class="output"><strong>Gmail:</strong> <span id="getGmail"></span></div>
+  <div class="output"><strong>Phone Number:</strong> <span id="getNumber"></span></div>
+  <div class="output"><strong>Nationality:</strong> <span id="getNat"></span></div>
+  <div class="output"><strong>Skills:</strong> <span id="getSkills"></span></div>
+  <div class="output"><strong>Education:</strong> <span id="getEdu"></span></div>
+  <div class="output"><strong>Objective:</strong> <span id="getObj"></span></div>
+  <div class="output"><strong>LinkedIn Profile URL:</strong> <span id="getLinkedin"></span></div>
+</div>
+
+  <div class="container-btn">
+    <button id="editResume" style="display: none;" >Edit Resume</button>
+    <button id ="downloadAsPdf"style="display: none;" >Download as pdf </button>
+</div>
+
+  <div id="shareAbleLink" style="display: none;" > 
+      <h2>ShareAble Link:</h2>
+  </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

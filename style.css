@@ -1,0 +1,233 @@
+body{
+background-color: rgb(0 ,0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 5vh;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+    border-bottom: 2px solid rgba(223, 209, 209, 0.166);
+    opacity: 0.8;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: screen;
+    width: 80%;
+    border: 2px black solid;
+    color: white;
+    background-color: rgba(249, 245, 245, 0.115);
+    gap: 2vh;
+    padding: 2vh 0px 4.5vh 0px;
+}
+
+
+.main-heading {
+    font-size: 4.5vh;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+label {
+    font-size: 2.5vh;
+}
+.input {
+    height: 4vh;
+    width: 45vw;
+    font-size: 2vh;
+    padding-left: 1vw;
+    background-color: rgba(223, 209, 209, 0.166);
+    color: white;
+
+}
+.input:hover {
+    background-color: rgba(223, 209, 209, 0.055) ;
+}
+.sub-container2 {
+    display: flex;
+    gap: 0px;
+}
+.text {
+    height: 8vh;
+    width: 45vw;
+    font-size: 2.5vh;
+    padding:1vh 0px 0px 1vw;
+    background-color: rgba(223, 209, 209, 0.166);
+    color: white;
+}
+.text:hover {
+    background-color: rgba(223, 209, 209, 0.055) ;
+}
+.margin {
+    padding-top: 3vh;
+}
+
+#generate-btn {
+    height: 5.5vh;
+    width: 20vw;
+    font-size: 2.5vh;
+    background-color: white;
+    font-style: italic;
+}
+#resume-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 80%;
+    height: auto;
+    margin-top: 6vh;
+    padding: 2vh 0px 6vh 1vw;
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+
+
+#generate-btn:hover {
+    background-color: rgba(223, 209, 209, 0.055) ;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+    opacity: 0.8;
+}
+h2 {
+    color: white;
+    margin-top: 10vh;
+    font-size: 5vh;
+    text-align: center;
+}
+p {
+    color: white;
+    font-size: 3vh;
+    padding-left: 10vh;
+
+}
+a {
+    color: white ;
+}
+
+#anchor-tag {
+    font-size: 3vh;
+}
+span {
+    font-size: 4vh;
+    /* text-decoration: underline; */
+}
+
+#shareAbleLink {
+        color: white;
+        margin-bottom: 5vh;
+}
+
+#downloadAsPdf {
+        height: 5.5vh;
+        width: 20vw;
+        font-size: 2.5vh;
+        background-color: white;
+        font-style: italic;
+        margin-top: 6vh;
+}
+#downloadAsPdf:hover {
+    background-color: rgba(223, 209, 209, 0.055) ;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+    opacity: 0.8;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 245, 245, 0.115);
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#editResume {
+    height: 5.5vh;
+    width: 20vw;
+    font-size: 2.5vh;
+    background-color: white;
+    font-style: italic;
+    /* margin-bottom: 6vh; */
+    margin-top: 6vh;
+
+}
+#editResume:hover {
+    background-color: rgba(223, 209, 209, 0.055) ;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 0.5vh 0px 3vh 0px;
+   
+}
+
+#getName {
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getGmail{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getNumber{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getLinkedin{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getNat{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getSkills{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getEdu{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+#getObj{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+.output {
+    margin: 0px 5vw 0px 2vw;
+    padding-top: 1.5vh;
+}

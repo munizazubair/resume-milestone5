@@ -1,0 +1,144 @@
+@media(max-width:520px){
+    h1{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 11px;
+    }
+    #resume-output {
+        width: 95%;
+        height: auto;
+        margin-top: 4vh;
+        gap: 2vh;
+    }
+    .output {
+        font-size: 2vh;
+        padding: 0%;
+        margin-left: 1vw;
+    }
+    .main-container {
+        width: 95%;
+        gap: 2vh;
+        padding: 0.3vh 0px 2.5vh 0px;
+    }
+    #shareable-link {
+            gap: 2vh;
+    }
+    .input {
+        height: 3vh;
+        width: 72vw;
+        font-size: 1.5vh;    
+    }
+    .text {
+        height: 7vh;
+        width: 72vw;
+        font-size: 2vh;
+        padding:1vh 0px 0px 1vw;
+        background-color: rgba(223, 209, 209, 0.166);
+        color: white;
+    }
+    label {
+        font-size: 2.2vh;
+    }
+    #generate-btn {
+        width: 34vw;
+        font-size: 1.6vh;
+    }
+    #downloadAsPdf {
+        width: 32vw;
+        font-size: 1.6vh;
+    }
+    #editResume {
+        width: 32vw;
+        font-size: 1.6vh;
+    }
+    h2 {
+        margin-top: 7vh;
+        font-size: 4vh;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 2vh;
+        padding-left: 8vh;
+    
+    }
+    span {
+        font-size: 3vh;
+    }
+    #anchor-tag {
+        font-size: 1.5vh;
+    }
+    #getName {
+        font-size: 2.5vh;
+
+    }
+    #getGmail{
+        font-size: 2.5vh;
+
+    }
+    #getNumber{
+        font-size: 2.5vh;
+
+    }
+    #getLinkedin{
+        font-size: 2.5vh;
+
+    }
+    #getNat{
+        font-size: 2.5vh;
+
+    }
+    #getSkills{
+        font-size: 2.5vh;
+
+    
+    }
+    #getEdu{
+        font-size: 2.5vh;
+
+    
+    }
+    #getObj{
+        font-size: 2.5vh;
+    
+    }
+    .output {
+        margin: 0px 5vw 0px 2vw;
+        padding-top: 1.3vh;
+
+    }
+
+   }
+    @media(min-width:520px) and (max-width:730px){
+        h1{
+            font-size: 24px;
+        }
+        h4{
+            font-size: 13px;
+        }
+        #downloadAsPdf {
+            width: 23vw;
+            font-size: 2vh;
+        }
+        #generate-btn {
+            width: 23vw;
+            font-size: 2vh;
+        }
+        h2 {
+            margin-top: 10vh;
+            font-size: 4vh;
+        }
+        p {
+            font-size: 2.3vh;  
+            padding-left: 5vh;
+  
+        }
+        span {
+            font-size: 3vh;
+        }
+        #anchor-tag {
+            font-size: 2vh;
+        }
+    }
+
